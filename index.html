@@ -11,19 +11,18 @@
 
 <style>
 .banner{
-  width: 100%;
-  max-width: 1500px;
-  margin: 0 auto 20px auto;
-  aspect-ratio: 1536 / 530;
+  margin-bottom: 14px;
+  padding: 0;
+  overflow: hidden;
+  min-height: 320px;
   background:
     radial-gradient(900px 220px at 20% 20%, rgba(176,38,255,.20), transparent 55%),
     radial-gradient(700px 240px at 80% 30%, rgba(124,92,255,.18), transparent 55%),
-    url("/assets/banner.png") center center / cover no-repeat;
+    url("./assets/banner.png");
+  background-size: cover;
+  background-position: center;
   border-radius: 22px;
   position: relative;
-  overflow: hidden;
-  box-shadow: 0 25px 70px rgba(0,0,0,0.6);
-  
 }
 
 .banner-overlay{
@@ -93,7 +92,7 @@
 
   <main class="container">
     <section class="page show" id="page-home">
-      <div class="banner">
+      <div class="banner card">
         <div class="banner-overlay">
           <div class="banner-left">
             <div class="banner-kicker">MALIBU ROLEPLAY</div>
@@ -153,7 +152,7 @@
       <div class="grid-3">
         <div class="card feature">
           <h3>Concessionária</h3>
-          <p class="muted">Concessionária com diversos carros e motos, basta escolher o seu!</p>
+          <p class="muted">Concessionária com deversos carros e motos, basta escolher o seu!</p>
         </div>
         <div class="card feature">
           <h3>Mercado Pago</h3>
