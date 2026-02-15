@@ -116,8 +116,7 @@ body{
     radial-gradient(700px 240px at 80% 30%, rgba(124,92,255,.18), transparent 55%),
     url("./assets/banner.png") center center / cover no-repeat;
   border-radius:22px;
-}
-
+  
 }
 .banner::after{
   content:"";
