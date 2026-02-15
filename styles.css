@@ -112,11 +112,14 @@ body{
   margin-bottom:20px;
   overflow:hidden;
   background:
-    radial-gradient(900px 220px at 20% 20%, rgba(176,38,255,.20), transparent 55%),
-    radial-gradient(700px 240px at 80% 30%, rgba(124,92,255,.18), transparent 55%),
+    radial-gradient(...),
     url("./assets/banner.png") center center / cover no-repeat;
   border-radius:22px;
-  
+}
+
+.banner.card{
+  padding:0;
+
 }
 .banner::after{
   content:"";
